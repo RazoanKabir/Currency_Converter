@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="point">.</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="clear">Clear</string>
+    <string name="currencyFragment">currencyfragment</string>
+    <string name="noInternet">No Internet Available</string>
+    <string name="currencyconverter">Currency Converter</string>
+    <string name="closeApp">Press again to exit the program</string>
+    <string name="usd">USD</string>
+    <string name="_0">0</string>
+    <string name="opencurrencydialog">openCurrencyDialog</string>
+    <string name="bdt">BDT</string>
+</resources>

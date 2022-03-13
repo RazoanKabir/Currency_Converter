@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PadItem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="PadItem.Number" parent="PadItem">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/rectstroke</item>
+    </style>
+    <style name="PadItem.Clear" parent="PadItem">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:background">@drawable/rectstroke</item>
+    </style>
+    <style name="DialogListStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#19bc5b</item>
+        <item name="android:colorPrimary">#19bc5b</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/indigo_500</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
